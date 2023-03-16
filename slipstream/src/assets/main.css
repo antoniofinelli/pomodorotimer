@@ -1,0 +1,62 @@
+@import './base.css';
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+
+  font-weight: normal;
+  text-align: center;
+}
+
+a,
+.green {
+  text-decoration: none;
+  background-color: var(--vt-c-indigo);
+  color: var(--vt-c-white);
+  border-radius: 50px;
+  transition: 0.4s;
+  font-size: 24px;
+  padding:10px;
+  margin-top:30px
+}
+
+button, input{
+  color:var(--color-text);
+  background: none;
+  font-size:20px;
+  padding: 10px;
+  width: 100%;
+  border-color: var(--color-text);
+  margin-top:10px;
+  border-radius: 0;
+  text-align: center;
+  transition: 0.4s;
+
+}
+
+@media (hover: hover) {
+  a:hover {
+    color: var(--vt-c-indigo);
+    background-color: var(--vt-c-white);
+    border: 2px solid var(--vt-c-indigo);
+    padding: 10px;
+    border-radius: 50px;
+  }
+  button:hover{
+    background-color: var(--vt-c-indigo);
+    color:  var(--vt-c-white);
+    border-radius: 50px;
+  }
+  input:hover{
+    background-color: var(--vt-c-indigo);
+    color:  var(--vt-c-white);
+    border-radius: 50px;
+  }
+}
+
+  body {
+    display: flex;
+    place-items: center;
+  }
+
